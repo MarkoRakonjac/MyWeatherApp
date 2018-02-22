@@ -1,0 +1,120 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.weather-box {
+	width: 100%;
+	height: 400px;
+	margin-top: 100px;
+	background-size: 100% 100%;
+	background-image: url(../img/weatherbg.gif);
+	background-size: 100% 100%;
+	border-radius: 20px;
+	border: 2px solid #f0aa25;
+	transition: all .7s;
+
+}
+.search-box {
+	width: 60%;
+	height: 50px;
+	margin: 50px auto 30px ;
+
+}
+#search-field {
+	width: 80%;
+	line-height: 50px;
+	background: rgba(111,111,111,.5);
+	border: 2px solid rgba(255,255,255,.8);
+	border-radius: 10px;
+	outline: none;
+	color: #fff;
+	font-size: 28px;
+	padding: 0 20px;
+}
+#search-field::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ 	color: #ddd;
+}
+
+#search-btn {
+	width: 15%;
+	line-height: 45px;
+	background: transparent;
+	border: 2px solid rgba(255,255,255,.8);
+	border-radius: 10px;
+	outline: none;
+	font-size: 25px;
+	color: #ddd;
+}
+
+#search-btn:hover {
+	background: rgba(111,111,111,.5);
+	color: #fff;
+}
+.info-box {
+	width: 80%;
+	height:auto;
+	background: rgba(111,111,111,.4);
+	border-radius: 20px;
+	margin: 0 auto; 
+	text-align: center;
+	color: #fff;
+}
+.time-box {
+	display: block;
+	font-size: 15px;
+	padding: 5px;
+}
+.date, .time  {
+	display: block;
+}
+.city-name {
+	margin: 0;
+	display: inline-block;
+	text-transform: capitalize;
+}
+.weather-description {
+		position: relative;
+		text-transform: capitalize;
+		top: 5px;
+	    background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 35px 30px;
+        padding-top : 30px;
+        margin-left: 10px;
+
+}
+ .pressure, .humidity, .wind {
+	font-size: 20px;
+	padding: 5px;
+	display: inline-block;		
+}
+
+.temp {
+	display: block;
+	font-size: 50px;
+}
+
+.pressure {
+	background-image: url(../img/pressure-icon.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px 25px;
+	padding-left: 35px;
+}
+.humidity {
+	background-image: url(../img/humidity-icon.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px 25px;
+	padding-left: 35px;
+	margin: 0 10px;
+
+}
+.wind {
+	background-image: url(../img/wind-icon.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px 25px;
+	padding-left: 33px;
+}
